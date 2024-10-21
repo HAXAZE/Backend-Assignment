@@ -1,0 +1,30 @@
+{
+  "name": "daily-expense-sharing-app",
+  "version": "1.0.0",
+  "description": "A backend for a daily expenses sharing application that allows users to add and split expenses based on exact amounts, percentages, or equal splits.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "body-parser": "^1.20.2",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "mongodb",
+    "expenses",
+    "sharing",
+    "zod"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}
